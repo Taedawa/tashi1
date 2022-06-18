@@ -1,3 +1,23 @@
-body{
-background-color:red;	
+.tae
+{
+	color:red;
+	text-align:center;
+	font-size:20px;
+	font-style:italic;
+}
+
+h1:hover
+{
+	color:blue;
+}
+/*body {
+	background: linear-gradient(to bottom, rgb(204, 229, 255), rgba(204, 229, 255, 0.4));
+	font-size: 1.15em;
+	text-align: justify;
+	font-family: "Lato", sans-serif; */
+}
+
+P.big{
+	color:red;
+	font-style:italic;
 }
