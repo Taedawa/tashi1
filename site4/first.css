@@ -34,11 +34,10 @@ h1:hover
 p.big 
 	{
 	
-	font-style:italic;
-	font-size:2em;
+	
+	font-size:20px;
 	text-transform:capitalize;
-	font-weight:400;
-
+	font-family:"joan",serif;
 	
 }
 
