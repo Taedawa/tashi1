@@ -2,8 +2,15 @@
 	<html lang= "en">
 		<head>
 		<meta charset= "utf-8">
-		<title>inheritence in css</title>
+		<title>specificity in css</title>
 		<style>
+			header.navigation p{
+				color:blue;
+			}
+			p.inline
+			{
+				color:green !important;
+			}
 
 
 		</style>
@@ -11,13 +18,12 @@
 
 
 			<body>
-			<h1>Style Placements </h1>
-				<h1>Subheading 1 </h1>
-			
+			<header class="navigation">
 		
-				<p> My name is Tashi Dawa and I am learning web designing to be as web developer</p>
-				<h2 style="color:green;">Subheading 2 </h2>
-				<p style="color:black;"> there is no conflict,declaration merge into one rule </p>
+				<p class="inline"> My name is Tashi Dawa and I am learning web designing to be as web developer
+				
+				 there is no conflict,declaration merge into one rule </p>
+				 </header>
 				</body>
 		</html>
-		</body>
+		
