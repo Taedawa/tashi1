@@ -106,3 +106,25 @@ p.big
 	text-align:center;	
 
 }
+
+.grid-container{
+	background-color:rgb(200, 455, 452);
+	margin:10px;
+	height:400px;
+	display: grid;
+	
+}
+
+.grid-item{
+	color:black;
+	font-size:20px;
+	text-align:center;
+	style="background: rgb(97, 135, 96);
+
+	
+	width:60px;
+	line-height:50px;
+	margin:10px;
+
+	
+}
