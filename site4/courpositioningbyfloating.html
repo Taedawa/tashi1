@@ -1,0 +1,72 @@
+<!doctype html>
+	<html lang= "en">
+		<head>
+		<meta charset= "utf-8">
+		<title>Positioning by floating</title>
+		<style>
+		
+		div{
+			background-color:rgb(82, 80, 199);
+
+		}
+
+		p
+		{
+			width:50px;
+			height:50px;
+			border:1px solid black;
+			float:left;
+			margin:20px;
+
+
+		}
+		
+		#p1
+		{
+			background-color:green;
+			text-align:center;
+			position:absolute;
+			top:0;
+			left:0;
+			
+		}
+		
+		#p2
+		{
+			background-color:orange;
+			text-align:center;
+		}
+			
+			#p3
+			{
+				background-color:blue;
+				text-align:center;
+				clear:left;
+				}
+			
+			#p4
+			{
+				background-color:red;
+				text-align:center;
+			}
+			
+			section
+			{
+				clear:left;
+			}
+		</style>
+		</head>
+		<body>
+			<h1>Floating element!</h1>
+				<div>
+				<p id="p1">1</p>
+				<p id="p2">2</p>
+				<p id="p3">3</p>
+				<p id="p4">4</p>
+				<section>this is a regular content continuing after the paragraph </section>
+				</div>
+				
+
+		</body>
+	</html>
+		
